@@ -15,3 +15,9 @@ public:
 
 };
 
+angka::angka(int i){// constructor
+    panjang = i;
+    arr = new int[i];
+    isiData();
+}
+
